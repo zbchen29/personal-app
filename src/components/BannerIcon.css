@@ -22,7 +22,7 @@
     padding-top: 10px;
 }
 
-@media (max-width:800px){
+@media (max-width: 768px){
     .banner-text {
         display: none;
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Home.css";
+// import "./Home.css";
 
 import Feature from "../components/Feature";
 import PanelContainer from "../components/PanelContainer";
@@ -12,10 +12,10 @@ class Home extends Component {
     {
         return (
             <div>
-                <div className="home-header">Welcome</div>
+                <div className="tab-header">Welcome</div>
                 <PanelContainer>
-                    <div className="theme-text">Hello.</div>
-                    <div className="theme-text">Welcome to my site.</div>
+                    <div className="p-3 theme-text">Hello, I am Zhenbang Chen.</div>
+                    <div className="p-3 theme-text">Welcome to my site.</div>
                 </PanelContainer>
             </div>
         );

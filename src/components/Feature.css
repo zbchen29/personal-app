@@ -1,4 +1,40 @@
 .feature-text {
-    padding: 15px;
     font-size: 16px;
+}
+
+.feature-text-b {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.feature-text-i {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.image-right {
+    order: 1;
+}
+
+.image-left {
+    order: 0;
+}
+
+@media (max-width: 768px) {
+    .image-left {
+        order: 0;
+    }
+
+    .image-right {
+        order: 0;
+    }
+}
+
+.feature-img {
+    padding: 10px 0px;
+}
+
+.col-content {
+    height: 200px;
+    object-fit: cover;
 }

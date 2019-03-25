@@ -5,11 +5,12 @@ import "./PanelContainer.css";
 class PanelContainer extends Component {
     render() {
         return (
-            <div className="container px-0 bg-white">
-                <div className="tab-band"></div>
-                {this.props.children}
+            <div className="panel-background">
+                <div className="container bg-white panel-container">
+                    {this.props.children}
+                </div>
             </div>
-        )
+        );
     }
 }
 

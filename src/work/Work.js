@@ -5,13 +5,23 @@ class Work extends Component {
     render()
     {
         return (
-            // <div className="navbar navbar-expand navbar-dark bg-dark" role="navigation">
-            //     <div className="navbar-brand">Welcome</div>
-            //     <div className="collapse navbar-collapse" id="navbarNav">
-            //         <Link to={"/work"} className="navbar-item text-light">Features</Link>
-            //     </div>
-            // </div>
-            <div>Work</div>
+            <div>
+                <div className="tab-header">Work</div>
+                <PanelContainer>
+                    <Feature format="image-left" image={mit}>
+                        <div class="feature-text-b">Massachusetts Institute of Technology</div>
+                        <div class="feature-text-i">Cambridge, MA</div>
+                        <div class="feature-text-i">2017-2021</div>
+                        <div class="feature-text">I am a second-year undergraduate student at MIT majoring in Computer Science and Engineering (Course 6-3).</div>
+                    </Feature>
+                    <Feature format="image-right" image={rmhs}>
+                        <div class="feature-text-b">Rocky Mount High School</div>
+                        <div class="feature-text-i">Rocky Mount, NC</div>
+                        <div class="feature-text-i">2013-2017</div>
+                        <div class="feature-text">I graduated from RMHS with an International Baccalaureate diploma in 2017.</div>
+                    </Feature>
+                </PanelContainer>
+            </div>
         );
     }
 }

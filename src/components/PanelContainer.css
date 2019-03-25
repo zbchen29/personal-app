@@ -2,3 +2,16 @@
     background-color: #55ccff;
     height: 10px;
 }
+
+.panel-background {
+    background-color: white;
+    padding-bottom: 0px;
+}
+
+.panel-container {
+    position: relative;
+    top: -75px;
+    border-top: 12px solid #55ccff;
+    border-bottom: 12px solid #55ccff;
+    box-shadow: 0px 3px 5px #7f7f7f;
+}

@@ -26,8 +26,9 @@ class App extends Component {
     {
         return (
             <div className="special-font">
-                <div className="w-100 h-100 app-background">
+                <div className="w-100 app-background">
                     <img className="w-100" src={boston}/>
+                    <div className="app-solid-background"></div>
                 </div>
                 <nav className="d-flex mx-auto justifty-content-around align-items-end app-icon-bar">
                     <BannerIcon routePath="/" imageIcon={homeIcon} imageName="HOME"/>
