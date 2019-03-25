@@ -1,0 +1,29 @@
+.banner-icon {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #55ccff;
+    margin: auto;
+}
+
+.banner-img {
+    display: block;
+    margin: auto;
+    line-height: 60px;
+    width: 30px;
+    height: 30px;
+}
+
+.banner-text {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media (max-width:800px){
+    .banner-text {
+        display: none;
+    }
+}
