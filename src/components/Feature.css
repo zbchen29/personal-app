@@ -2,14 +2,23 @@
     font-size: 16px;
 }
 
-.feature-text-b {
+.feature-text-h {
     font-weight: bold;
     font-size: 18px;
+}
+
+.feature-text-b {
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .feature-text-i {
     font-style: italic;
     font-size: 16px;
+}
+
+.feature-text-light {
+    color: #7f7f7f;
 }
 
 .image-right {
@@ -20,6 +29,15 @@
     order: 0;
 }
 
+.feature-img {
+    padding: 10px 0px;
+}
+
+.col-content {
+    height: 300px;
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
     .image-left {
         order: 0;
@@ -28,13 +46,9 @@
     .image-right {
         order: 0;
     }
-}
 
-.feature-img {
-    padding: 10px 0px;
-}
-
-.col-content {
-    height: 200px;
-    object-fit: cover;
+    .col-content {
+        height: 250px;
+        object-fit: cover;
+    }
 }

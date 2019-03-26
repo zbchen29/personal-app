@@ -6,7 +6,7 @@ class BannerIcon extends Component {
     render()
     {
         return (
-            <Link to={this.props.routePath} className="p-2 col nav-item text-light" style={{textDecoration:"none"}}>
+            <Link to={this.props.routePath} className="p-2 col nav-item banner-link">
                 <div className="banner-icon">
                     <img className="banner-img" src={this.props.imageIcon}/>
                 </div>

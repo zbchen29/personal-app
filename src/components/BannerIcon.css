@@ -1,3 +1,20 @@
+.banner-link {
+    text-decoration: none;
+}
+
+.banner-link:hover {
+    text-decoration: none;
+}
+
+.banner-link:hover .banner-icon {
+    background-color: white;
+}
+
+.banner-link:hover .banner-text {
+    padding-top: 15px;
+    color: white;
+}
+
 .banner-icon {
     display: flex;
     align-items: center;
@@ -6,6 +23,7 @@
     border-radius: 30px;
     background-color: #55ccff;
     margin: auto;
+    transition: 0.3s;
 }
 
 .banner-img {
@@ -18,12 +36,35 @@
 
 .banner-text {
     font-size: 12px;
+    font-weight: bold;
     text-align: center;
+    color: white;
     padding-top: 10px;
+    transition: 0.3s;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .banner-text {
         display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-icon {
+        display: flex;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #55ccff;
+        margin: auto;
+    }
+
+    .banner-img {
+        display: block;
+        margin: auto;
+        line-height: 40px;
+        width: 20px;
+        height: 20px;
     }
 }

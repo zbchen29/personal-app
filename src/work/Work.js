@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import Feature from "../components/Feature";
+import PanelContainer from "../components/PanelContainer";
+
+import gamelab from "./work_gamelab.jpeg";
+import ncvps from "./work_ncvps.jpeg";
+
 class Work extends Component {
     render()
     {
@@ -8,17 +14,19 @@ class Work extends Component {
             <div>
                 <div className="tab-header">Work</div>
                 <PanelContainer>
-                    <Feature format="image-left" image={mit}>
-                        <div class="feature-text-b">Massachusetts Institute of Technology</div>
-                        <div class="feature-text-i">Cambridge, MA</div>
-                        <div class="feature-text-i">2017-2021</div>
-                        <div class="feature-text">I am a second-year undergraduate student at MIT majoring in Computer Science and Engineering (Course 6-3).</div>
+                    <Feature format="image-left" image={gamelab}>
+                        <div className="feature-text-h">MIT Game Lab</div>
+                        <div className="feature-text-i feature-text-b">MIT Game Lab Developer</div>
+                        <div className="feature-text-i feature-text-light">Cambridge, MA</div>
+                        <div className="feature-text-i feature-text-light">June 2018 - February 2018</div>
+                        <div className="feature-text">Working with a team of undergrads and researchers, I developed new shaders, backend, models, and UI for Einstein's Playground, a planetarium-based real-time simulation of special relativity.</div>
                     </Feature>
-                    <Feature format="image-right" image={rmhs}>
-                        <div class="feature-text-b">Rocky Mount High School</div>
-                        <div class="feature-text-i">Rocky Mount, NC</div>
-                        <div class="feature-text-i">2013-2017</div>
-                        <div class="feature-text">I graduated from RMHS with an International Baccalaureate diploma in 2017.</div>
+                    <Feature format="image-right" image={ncvps}>
+                        <div className="feature-text-h">North Carolina Virtual Public Schools - Peer Tutoring Center</div>
+                        <div className="feature-text-i feature-text-b">Senior CS/Math/French Tutor</div>
+                        <div className="feature-text-i feature-text-light">Raleigh, NC</div>
+                        <div className="feature-text-i feature-text-light">January 2015 - August 2018</div>
+                        <div className="feature-text">I worked as an online tutor for the Peer Tutoring Center at NCVPS.  I guided distance learning students through Computer Science, Math, French, and Chemistry courses.</div>
                     </Feature>
                 </PanelContainer>
             </div>

@@ -36,6 +36,14 @@
     }
 }
 
+@media (max-width: 576px) {
+    .app-icon-bar {
+        width: auto;
+        height: 50px;
+        background-color: #55ccff;
+    }
+}
+
 .app-background {
     background-color: black;
     z-index: -1;

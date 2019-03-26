@@ -15,12 +15,10 @@ class Feature extends Component {
         return (
             <div className="row overflow-hidden">
                 <div className={order}>
-                    <div className="col-content">
-                        <img className="w-100" src={this.props.image}/>
-                    </div>
+                    <img className="col-content w-100" src={this.props.image}/>
                 </div>
                 <div className="col-md overflow-hidden mx-0 p-0">
-                    <div className="p-3">{this.props.children}</div>
+                    <div className="p-4">{this.props.children}</div>
                 </div>
             </div>
         );
