@@ -47,7 +47,10 @@
 .app-background {
     background-color: black;
     z-index: -1;
-    position: absolute;
+    position: fixed;
+    max-height: 420px;
+    object-fit: cover;
+    object-position: 0% 25%;
 }
 
 .app-solid-background {
@@ -72,9 +75,14 @@
     color: white;
 }
 
-.theme-text {
+.theme-text-md {
     font-size: 20px;
     text-align: center;
+}
+
+.theme-text-sm {
+    font-size: 16px;
+    text-align: left;
 }
 
 @keyframes App-logo-spin {

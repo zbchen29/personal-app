@@ -1,0 +1,29 @@
+.fade-in {
+  opacity: 1;
+  transition: 1s;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: 1s;
+}
+
+.slide-button {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.slide-button:hover {
+    opacity: 0.85;
+    transitoin: 0.5s;
+}
+
+.slide-index {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.slide-index:hover {
+    opacity: 0.85;
+    transitoin: 0.5s;
+}

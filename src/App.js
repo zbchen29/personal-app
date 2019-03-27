@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -26,17 +26,17 @@ class App extends Component {
     {
         return (
             <div className="special-font">
-                <div className="w-100 app-background">
-                    <img className="w-100" src={boston}/>
+                <div className="w-100">
+                    <img className="w-100 app-background" src={boston} alt="boston"/>
                     <div className="app-solid-background"></div>
                 </div>
                 <nav className="d-flex mx-auto justifty-content-around align-items-end app-icon-bar">
-                    <BannerIcon routePath="/" imageIcon={homeIcon} imageName="HOME"/>
-                    <BannerIcon routePath="/education" imageIcon={educationIcon} imageName="EDUCATION"/>
-                    <BannerIcon routePath="/work" imageIcon={workIcon} imageName="WORK"/>
-                    <BannerIcon routePath="/projects" imageIcon={projectsIcon} imageName="PROJECTS"/>
-                    <BannerIcon routePath="/artwork" imageIcon={artworkIcon} imageName="ARTWORK"/>
-                    <BannerIcon routePath="/about" imageIcon={aboutIcon} imageName="ABOUT"/>
+                    <BannerIcon routePath="/" imageIcon={homeIcon} imageName="HOME" alt="home"/>
+                    <BannerIcon routePath="/education" imageIcon={educationIcon} imageName="EDUCATION" alt="education"/>
+                    <BannerIcon routePath="/work" imageIcon={workIcon} imageName="WORK" alt="work"/>
+                    <BannerIcon routePath="/projects" imageIcon={projectsIcon} imageName="PROJECTS" alt="projects"/>
+                    <BannerIcon routePath="/artwork" imageIcon={artworkIcon} imageName="ARTWORK" alt="artwork"/>
+                    <BannerIcon routePath="/about" imageIcon={aboutIcon} imageName="ABOUT" alt="about"/>
                 </nav>
                 <Switch>
                     <Route exact path="/" component={Home}/>

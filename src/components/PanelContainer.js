@@ -9,6 +9,7 @@ class PanelContainer extends Component {
                 <div className="container bg-white panel-container">
                     {this.props.children}
                 </div>
+                <div className="theme-text-light copyright-text">© Zhenbang Chen</div>
             </div>
         );
     }

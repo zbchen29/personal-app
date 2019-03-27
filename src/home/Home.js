@@ -2,20 +2,17 @@ import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 // import "./Home.css";
 
-import Feature from "../components/Feature";
 import PanelContainer from "../components/PanelContainer";
-
-import img1 from "./home_icon.png";
 
 class Home extends Component {
     render()
     {
         return (
             <div>
-                <div className="tab-header">Welcome</div>
+                <div className="tab-header">ZHENBANG CHEN</div>
                 <PanelContainer>
-                    <div className="p-3 theme-text">Hello, I am Zhenbang Chen.</div>
-                    <div className="p-3 theme-text">Welcome to my site.</div>
+                    <div className="p-3 theme-text-md">"You'll never regret the chances you took and the mistakes you made as you sought out life well-lived"</div>
+                    <div className="p-3 theme-text-md">- T. Proctor</div>
                 </PanelContainer>
             </div>
         );

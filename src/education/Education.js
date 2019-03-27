@@ -13,7 +13,7 @@ class Education extends Component {
     {
         return (
             <div>
-                <div className="tab-header">Education</div>
+                <div className="tab-header">EDUCATION</div>
                 <PanelContainer>
                     <Feature format="image-left" image={mit}>
                         <div className="feature-text-h">Massachusetts Institute of Technology</div>
