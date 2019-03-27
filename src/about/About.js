@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import PanelContainer from "../components/PanelContainer";
@@ -26,9 +25,9 @@ class About extends Component {
                     <div className="p-3 theme-text-md">Information</div>
                     <div className="p-3">
                         <ul>
-                            <li><a target="_blank" href="/Resume.pdf" className="theme-text-sm">Resume</a></li>
-                            <li><a target="_blank" href="https://github.com/zbchen29" className="theme-text-sm">GitHub</a></li>
-                            <li><a target="_blank" href="https://www.behance.net/rigelb8ia7cd80" className="theme-text-sm">Behance Portfolio</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="/Resume.pdf" className="theme-text-sm">Resume</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/zbchen29" className="theme-text-sm">GitHub</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/rigelb8ia7cd80" className="theme-text-sm">Behance Portfolio</a></li>
                         </ul>
                     </div>
                 </PanelContainer>
