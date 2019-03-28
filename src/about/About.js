@@ -10,24 +10,26 @@ class About extends Component {
             <div>
                 <div className="tab-header">ABOUT</div>
                 <PanelContainer>
-                    <div className="p-3 theme-text-md">Zhenbang Chen</div>
+                    <div className="p-3 theme-text-md">Zhenbang "Ben" Chen</div>
                     <div className="p-3 theme-text-sm">
-                        I am a student at MIT pursuing a degree in Computer Science and Engineering.  I am currently taking
+                        I am a student at MIT pursuing a degree in Computer Science and Engineering.  Among my friends, I go by the substantially simpler nickname Ben.  Currently, I am taking
                         courses in 6.046 (Design and Analysis of Algorithms), 6.033 (Computer Systems Engineering), 6.08 (Interconnected Embedded Systems), 8.02 (Physics II), and 21H.241 (France: Englightenment and Revolution).
                     </div>
                     <div className="p-3 theme-text-sm">
-                        Beyond my courses, I am deeply interested in astronomy/space exploration, history, and energy sustainability.
+                        Beyond my courses, I am deeply interested in astronomy/space exploration, education, history, and energy sustainability.
                     </div>
                     <div className="p-3 theme-text-sm">
-                        Although my family is from China, I grew up in the great state of North Carolina along with my twin brother.  I currently reside in the equally amazing, albeit substantially colder, state of New York. In my free time, I love running, playing badminton, making digital art, coding, and reading historical fiction novels.
+                        Although my family is from China, I grew up in the great state of North Carolina along with my twin brother.  I currently reside in the equally amazing (albeit much colder!) state of New York. In my free time, I love running, playing badminton, making digital art, coding, and reading historical fiction novels.
                     </div>
 
-                    <div className="p-3 theme-text-md">Information</div>
+                    <div className="p-3 theme-text-md">Information and Contact</div>
                     <div className="p-3">
                         <ul>
                             <li><a target="_blank" rel="noopener noreferrer" href="/Resume.pdf" className="theme-text-sm">Resume</a></li>
                             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/zbchen29" className="theme-text-sm">GitHub</a></li>
                             <li><a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/rigelb8ia7cd80" className="theme-text-sm">Behance Portfolio</a></li>
+                            <li>+1 (252) 458-3935</li>
+                            <li>zhenbang @ mit.edu</li>
                         </ul>
                     </div>
                 </PanelContainer>
