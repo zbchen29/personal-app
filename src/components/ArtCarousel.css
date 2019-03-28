@@ -15,7 +15,7 @@
 
 .slide-button:hover {
     opacity: 0.85;
-    transitoin: 0.5s;
+    transition: 0.5s;
 }
 
 .slide-index {
@@ -25,5 +25,12 @@
 
 .slide-index:hover {
     opacity: 0.85;
-    transitoin: 0.5s;
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .slide-button {
+        opacity: 0.25;
+        transition: 0.5s;
+    }
 }
