@@ -1,3 +1,5 @@
-Repository for personal site hosted on Heroku at [zbc-home.herokuapp.com](http://zbc-home.herokuapp.com/)
+# zhenbangchen.com
 
-This site runs using Node.js.  It relies on the Express and React frameworks.
+Repository for my personal site located [here](zhenbangchen.com).
+
+This static site runs using Node.js.  It relies on the Express and React frameworks.
