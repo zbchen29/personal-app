@@ -18,7 +18,7 @@ class Work extends Component {
                         <div className="feature-text-h">MIT Game Lab</div>
                         <div className="feature-text-i feature-text-b">Software Developer</div>
                         <div className="feature-text-i feature-text-light">Cambridge, MA</div>
-                        <div className="feature-text-i feature-text-light">June 2018 - February 2018</div>
+                        <div className="feature-text-i feature-text-light">May 2018 - February 2019</div>
                         <div className="feature-text">Working with a team of undergrads and researchers, I developed new shaders, backend, models, and UI for Einstein's Playground, a planetarium-based real-time simulation of special relativity.  I also contributed to extending the existing OpenRelativity project.</div>
                     </Feature>
                     <Feature format="image-right" image={ncvps}>

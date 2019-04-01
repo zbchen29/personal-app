@@ -30,7 +30,7 @@ class App extends Component {
                     <img className="w-100 app-background" src={boston} alt="boston"/>
                     <div className="app-solid-background"></div>
                 </div>
-                <nav className="d-flex mx-auto justifty-content-around align-items-end app-icon-bar">
+                <nav className="d-flex mx-auto justify-content-around align-items-end app-icon-bar">
                     <BannerIcon routePath="/" imageIcon={homeIcon} imageName="HOME" alt="home"/>
                     <BannerIcon routePath="/education" imageIcon={educationIcon} imageName="EDUCATION" alt="education"/>
                     <BannerIcon routePath="/work" imageIcon={workIcon} imageName="WORK" alt="work"/>
