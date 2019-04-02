@@ -1,0 +1,17 @@
+.info-icon {
+    width: 35px;
+    height: 35px;
+    margin: 10px 10px;
+    object-fit: scale-down;
+}
+
+.text-link {
+    color: black;
+    font-weight: bold;
+    transition: 0.35s;
+}
+
+.text-link:hover {
+    color: #55ccff;
+    text-decoration: none;
+}

@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./About.css";
 
 import PanelContainer from "../components/PanelContainer";
+import IconLink from "../components/IconLink";
+
+import github_mark from "../misc/github_mark.png";
+import resume_icon from "../misc/resume_icon.png";
+import behance_icon from "../misc/behance_icon.png";
+import email_icon from "../misc/email_icon.png";
+import phone_icon from "../misc/phone_icon.png";
 
 class About extends Component {
     render()
@@ -24,13 +32,26 @@ class About extends Component {
 
                     <div className="p-3 theme-text-md">Information and Contact</div>
                     <div className="p-3">
-                        <ul>
-                            <li><a target="_blank" rel="noopener noreferrer" href="/Resume.pdf" className="theme-text-sm">Resume</a></li>
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/zbchen29" className="theme-text-sm">GitHub</a></li>
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/rigelb8ia7cd80" className="theme-text-sm">Behance Portfolio</a></li>
-                            <li>+1 (252) 458-3935</li>
-                            <li>zhenbang @ mit.edu</li>
-                        </ul>
+                        <div><a target="_blank" rel="noopener noreferrer" href="/Resume.pdf" className="theme-text-sm text-link">
+                            <img className="info-icon" src={resume_icon} alt="resume icon"/>
+                            Resume
+                        </a></div>
+                        <div><a target="_blank" rel="noopener noreferrer" href="https://github.com/zbchen29" className="theme-text-sm text-link">
+                            <img className="info-icon" src={github_mark} alt="github icon"/>
+                            GitHub
+                        </a></div>
+                        <div><a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/rigelb8ia7cd80" className="theme-text-sm text-link">
+                            <img className="info-icon" src={behance_icon} alt="behance icon"/>
+                            Behance Portfolio
+                        </a></div>
+                        <div className="theme-text-sm">
+                            <img className="info-icon" src={phone_icon} alt="phone icon"/>
+                            +1 (252) 458-3935
+                        </div>
+                        <div className="theme-text-sm">
+                            <img className="info-icon" src={email_icon} alt="email icon"/>
+                            zhenbang@mit.edu
+                        </div>
                     </div>
                 </PanelContainer>
             </div>

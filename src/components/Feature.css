@@ -5,11 +5,22 @@
 .feature-text-h {
     font-weight: bold;
     font-size: 18px;
+    color: black;
 }
 
 .feature-text-b {
     font-weight: bold;
+    color: black;
     font-size: 16px;
+}
+
+.feature-text-link {
+    transition: 0.35s;
+}
+
+.feature-text-link:hover {
+    color: #55ccff;
+    text-decoration: none;
 }
 
 .feature-text-i {
@@ -36,6 +47,12 @@
 .col-content {
     height: 300px;
     object-fit: cover;
+    transition: 0.5s;
+}
+
+.col-content:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
 }
 
 @media (max-width: 768px) {

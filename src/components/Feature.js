@@ -14,9 +14,9 @@ class Feature extends Component {
 
         return (
             <div className="row overflow-hidden">
-                <div className={order}>
+                <a href={this.props.link} className={order} target="_blank" rel="noopener noreferrer">
                     <img className="col-content w-100" src={this.props.image} alt="feature"/>
-                </div>
+                </a>
                 <div className="col-md overflow-hidden mx-0 p-0">
                     <div className="p-4">{this.props.children}</div>
                 </div>
