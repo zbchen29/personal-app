@@ -10,6 +10,7 @@ import resume_icon from "../misc/resume_icon.png";
 import behance_icon from "../misc/behance_icon.png";
 import email_icon from "../misc/email_icon.png";
 import phone_icon from "../misc/phone_icon.png";
+import linkedin_icon from "../misc/linkedin_icon.png";
 
 class About extends Component {
     render()
@@ -35,6 +36,10 @@ class About extends Component {
                         <div><a target="_blank" rel="noopener noreferrer" href="/Resume.pdf" className="theme-text-sm text-link">
                             <img className="info-icon" src={resume_icon} alt="resume icon"/>
                             Resume
+                        </a></div>
+                        <div><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/zbchen/" className="theme-text-sm text-link">
+                            <img className="info-icon" src={linkedin_icon} alt="linkedin icon"/>
+                            LinkedIn
                         </a></div>
                         <div><a target="_blank" rel="noopener noreferrer" href="https://github.com/zbchen29" className="theme-text-sm text-link">
                             <img className="info-icon" src={github_mark} alt="github icon"/>

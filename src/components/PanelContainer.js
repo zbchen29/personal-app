@@ -8,6 +8,7 @@ import github_mark from "../misc/github_mark.png";
 import resume_icon from "../misc/resume_icon.png";
 import behance_icon from "../misc/behance_icon.png";
 import email_icon from "../misc/email_icon.png";
+import linkedin_icon from "../misc/linkedin_icon.png";
 
 class PanelContainer extends Component {
     render() {
@@ -18,6 +19,7 @@ class PanelContainer extends Component {
                 </div>
                 <div className="d-flex justify-content-center">
                     <IconLink linkPath="/Resume.pdf" imageIcon={resume_icon}/>
+                    <IconLink linkPath="https://www.linkedin.com/in/zbchen/" imageIcon={linkedin_icon}/>
                     <IconLink linkPath="https://github.com/zbchen29" imageIcon={github_mark}/>
                     <IconLink linkPath="https://www.behance.net/rigelb8ia7cd80" imageIcon={behance_icon}/>
                     <IconLink linkPath="mailto:zhenbang@mit.edu" imageIcon={email_icon}/>
