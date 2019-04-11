@@ -26,7 +26,7 @@ class Education extends Component {
                         <a href="https://www.nrms.k12.nc.us/domain/32" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Rocky Mount High School</a>
                         <div className="feature-text-i feature-text-light">Rocky Mount, NC</div>
                         <div className="feature-text-i feature-text-light">2013-2017</div>
-                        <div className="feature-text">I graduated in the top 3% of the RMHS class of 2017 with an <a href="https://www.ibo.org/" class="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">International Baccalaureate</a> diploma.</div>
+                        <div className="feature-text">I graduated in the top 3% of the RMHS class of 2017 with an <a href="https://www.ibo.org/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">International Baccalaureate</a> diploma.</div>
                     </Feature>
                 </PanelContainer>
             </div>

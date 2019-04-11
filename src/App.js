@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import "./App.css"
+// import PropTypes from "prop-types";
+import { withRouter } from 'react-router';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Components
@@ -22,8 +25,16 @@ import artworkIcon from './artwork/artwork_icon.png';
 import aboutIcon from './about/about_icon.png';
 
 class App extends Component {
+    // static propTypes = {
+    //     match: PropTypes.object.isRequired,
+    //     location: PropTypes.object.isRequired,
+    //     history: PropTypes.object.isRequired
+    // };
+
     render()
     {
+        // const { match, location , history} = this.props;
+        const { location } = this.props;
         return (
             <div className="special-font">
                 <div className="w-100">
@@ -38,17 +49,25 @@ class App extends Component {
                     <BannerIcon routePath="/artwork" imageIcon={artworkIcon} imageName="ARTWORK" alt="artwork"/>
                     <BannerIcon routePath="/about" imageIcon={aboutIcon} imageName="ABOUT" alt="about"/>
                 </nav>
-                <Switch>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/education" component={Education}/>
-                    <Route path="/work" component={Work}/>
-                    <Route path="/projects" component={Projects}/>
-                    <Route path="/artwork" component={Artwork}/>
-                    <Route path="/about" component={About}/>
-                </Switch>
+                <TransitionGroup>
+                    <CSSTransition
+                        key={location.key}
+                        classNames="flow"
+                        timeout={600}
+                    >
+                        <Switch location={location} className="wrapper">
+                            <Route exact path="/" component={Home}/>
+                            <Route path="/education" component={Education}/>
+                            <Route path="/work" component={Work}/>
+                            <Route path="/projects" component={Projects}/>
+                            <Route path="/artwork" component={Artwork}/>
+                            <Route path="/about" component={About}/>
+                        </Switch>
+                    </CSSTransition>
+                </TransitionGroup>
             </div>
         );
     }
 }
 
-export default App;
+export default withRouter(App);

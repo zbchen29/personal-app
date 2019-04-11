@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.css";
 
 import PanelContainer from "../components/PanelContainer";
-import IconLink from "../components/IconLink";
 
 import github_mark from "../misc/github_mark.png";
 import resume_icon from "../misc/resume_icon.png";
