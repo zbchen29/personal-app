@@ -8,6 +8,7 @@ import einstein from "./projects_einstein.jpeg";
 import cfg from "./projects_cfg.jpeg";
 import fractoid from "./projects_fractoid.jpeg";
 import ncaa from "./projects_ncaa.jpeg";
+import catan from "./projects_catan.jpeg";
 
 class Projects extends Component {
     render()
@@ -31,6 +32,10 @@ class Projects extends Component {
                     <Feature format="image-right" image={ncaa} link="https://github.com/zbchen29/ncaa-scores">
                         <a href="https://github.com/zbchen29/ncaa-scores" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">March Madness Score Disparities</a>
                         <div className="feature-text">Various detailed data visualizations of minute-by-minute score differences of each game in the March Madness basketball tournament.  Data mined from <a href="https://www.ncaa.com/" class="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">NCAA</a> and covers 2017-2018.  (Hopefully 2019 soon! RIP my bracket rank...<a href="https://www.ncaa.com/game/basketball-men/d1/2019/03/31/michigan-st-duke" class="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">why Duke</a>...)</div>
+                    </Feature>
+                    <Feature format="image-left" image={catan} link="https://github.com/zbchen29/catan-gen">
+                        <a href="https://github.com/zbchen29/catan-gen" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Catan Setup Generator</a>
+                        <div className="feature-text">Generator for a more mathematically fair, randomized board setup for Settlers of Catan.  I used it to invalidate complaints of unbalanced boards in my own games.</div>
                     </Feature>
                 </PanelContainer>
             </div>
