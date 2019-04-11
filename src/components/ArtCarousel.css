@@ -11,6 +11,7 @@
 .slide-button {
     opacity: 0;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .slide-button:hover {

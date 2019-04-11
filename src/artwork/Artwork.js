@@ -20,7 +20,7 @@ class Artwork extends Component {
             <div>
                 <div className="tab-header">ARTWORK</div>
                 <PanelContainer>
-                    <ArtCarousel carouselID="main-carousel">
+                    <ArtCarousel>
                         <img src={abstract} className="d-block w-100" alt="abstract"/>
                         <img src={dining} className="d-block w-100" alt="dining"/>
                         <img src={bench} className="d-block w-100" alt="bench"/>

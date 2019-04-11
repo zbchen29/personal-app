@@ -21,7 +21,7 @@ class About extends Component {
                     <div className="p-3 theme-text-md">Zhenbang "Ben" Chen</div>
                     <div className="p-3 theme-text-sm">
                         I am a student at MIT pursuing a degree in Computer Science and Engineering.  Among my friends, I go by the substantially simpler nickname Ben.  Currently, I am taking
-                        courses in 6.046 (Design and Analysis of Algorithms), 6.033 (Computer Systems Engineering), 6.08 (Interconnected Embedded Systems), 8.02 (Physics II), and 21H.241 (France: Englightenment and Revolution).
+                        courses in 6.046 (Design and Analysis of Algorithms), 6.033 (Computer Systems Engineering), 6.08 (Interconnected Embedded Systems), 8.02 (Physics II), and 21H.241 (France: Enlightenment and Revolution).
                     </div>
                     <div className="p-3 theme-text-sm">
                         Beyond my courses, I am deeply interested in astronomy/space exploration, education, history, and energy sustainability.
@@ -53,7 +53,9 @@ class About extends Component {
                             +1 (252) 458-3935
                         </div>
                         <div className="theme-text-sm">
-                            <img className="info-icon" src={email_icon} alt="email icon"/>
+                            <a href="mailto:zhenbang@mit.edu">
+                                <img className="info-icon" src={email_icon} alt="email icon"/>
+                            </a>
                             zhenbang@mit.edu
                         </div>
                     </div>

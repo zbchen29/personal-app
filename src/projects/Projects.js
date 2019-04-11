@@ -19,7 +19,7 @@ class Projects extends Component {
                 <PanelContainer>
                     <Feature format="image-left" image={einstein} link="https://www.behance.net/gallery/77836131/Einsteins-Playground">
                         <a href="https://www.behance.net/gallery/77836131/Einsteins-Playground" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Einstein's Playground</a>
-                        <div className="feature-text">Developed at the MIT Game Lab, Einstein's Playground is a planetarium-based real-time simulation for visualizing special relativity in everyday environments.  It uses an greatly improved version of the <a href="http://gamelab.mit.edu/research/openrelativity/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">OpenRelativity</a> library.</div>
+                        <div className="feature-text">Developed at the MIT Game Lab, Einstein's Playground is a planetarium-based real-time simulation for visualizing special relativity in everyday environments.  It uses a greatly improved version of the <a href="http://gamelab.mit.edu/research/openrelativity/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">OpenRelativity</a> library.</div>
                     </Feature>
                     <Feature format="image-right" image={cfg} link="http://codeforgood.mit.edu/">
                         <a href="http://codeforgood.mit.edu/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">The Second Step Web App</a>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './IconLink.css';
-
 class IconLink extends Component {
     render() {
         return (

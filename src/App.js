@@ -51,9 +51,9 @@ class App extends Component {
                 </nav>
                 <TransitionGroup>
                     <CSSTransition
-                        key={location.key}
+                        key={location.pathname}
                         classNames="flow"
-                        timeout={600}
+                        timeout={500}
                     >
                         <Switch location={location} className="wrapper">
                             <Route exact path="/" component={Home}/>

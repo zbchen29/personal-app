@@ -18,11 +18,11 @@ class PanelContainer extends Component {
                     {this.props.children}
                 </div>
                 <div className="d-flex justify-content-center">
-                    <IconLink linkPath="/Resume.pdf" imageIcon={resume_icon}/>
-                    <IconLink linkPath="https://www.linkedin.com/in/zbchen/" imageIcon={linkedin_icon}/>
-                    <IconLink linkPath="https://github.com/zbchen29" imageIcon={github_mark}/>
-                    <IconLink linkPath="https://www.behance.net/rigelb8ia7cd80" imageIcon={behance_icon}/>
-                    <IconLink linkPath="mailto:zhenbang@mit.edu" imageIcon={email_icon}/>
+                    <IconLink linkPath="/Resume.pdf" imageIcon={resume_icon} newTab={true}/>
+                    <IconLink linkPath="https://www.linkedin.com/in/zbchen/" imageIcon={linkedin_icon} newTab={true}/>
+                    <IconLink linkPath="https://github.com/zbchen29" imageIcon={github_mark} newTab={true}/>
+                    <IconLink linkPath="https://www.behance.net/rigelb8ia7cd80" imageIcon={behance_icon} newTab={true}/>
+                    <IconLink linkPath="mailto:zhenbang@mit.edu" imageIcon={email_icon} newTab={false}/>
                 </div>
                 <div className="theme-text-light copyright-text">© Zhenbang Chen</div>
             </div>

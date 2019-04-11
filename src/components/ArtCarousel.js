@@ -15,7 +15,7 @@ class ArtCarousel extends Component {
     }
 
     componentDidMount() {
-        this.timerID = setInterval(
+        this.timerIntID = setInterval(
             () => this.changeSlide(),
             4000
         );
@@ -23,7 +23,8 @@ class ArtCarousel extends Component {
     }
 
     componentWillUnmount() {
-        clearInterval(this.timerID);
+        clearInterval(this.timerIntID);
+        clearTimeout(this.timerID);
     }
 
     changeSlide() {
@@ -36,10 +37,14 @@ class ArtCarousel extends Component {
         this.setState({
             activeIndex: newIndex
         })
-        clearInterval(this.timerID);
-        this.timerID = setInterval(
-            () => this.changeSlide(),
-            4000
+        clearInterval(this.timerIntID);
+        clearTimeout(this.timerID);
+        this.timerID = setTimeout(
+            () => this.timerIntID = setInterval(
+                () => this.changeSlide(),
+                4000
+            ),
+            6000
         );
     }
 
@@ -47,10 +52,14 @@ class ArtCarousel extends Component {
         this.setState({
             activeIndex: (this.state.activeIndex+this.count-1)%this.count
         });
-        clearInterval(this.timerID);
-        this.timerID = setInterval(
-            () => this.changeSlide(),
-            4000
+        clearInterval(this.timerIntID);
+        clearTimeout(this.timerID);
+        this.timerID = setTimeout(
+            () => this.timerIntID = setInterval(
+                () => this.changeSlide(),
+                4000
+            ),
+            6000
         );
     }
 
@@ -58,10 +67,14 @@ class ArtCarousel extends Component {
         this.setState({
             activeIndex: (this.state.activeIndex+1)%this.count
         });
-        clearInterval(this.timerID);
-        this.timerID = setInterval(
-            () => this.changeSlide(),
-            4000
+        clearInterval(this.timerIntID);
+        clearTimeout(this.timerID);
+        this.timerID = setTimeout(
+            () => this.timerIntID = setInterval(
+                () => this.changeSlide(),
+                4000
+            ),
+            6000
         );
     }
 
@@ -69,9 +82,9 @@ class ArtCarousel extends Component {
 
         let indicators = React.Children.map(this.props.children, (child, index) => {
             return (index===this.state.activeIndex) ? (
-                <li data-target={"#" + this.props.carouselID} data-slide-to={index} className="active" onClick={(e) => this.goToIndex(index,e)}></li>
+                <li className="active" onClick={(e) => this.goToIndex(index,e)}></li>
             ) : (
-                <li data-target={"#" + this.props.carouselID} data-slide-to={index} className="" onClick={(e) => this.goToIndex(index,e)}></li>
+                <li className="" onClick={(e) => this.goToIndex(index,e)}></li>
             );
         });
 
@@ -88,21 +101,21 @@ class ArtCarousel extends Component {
         })
 
         return (
-            <div id={this.props.carouselID} className="carousel slide" data-ride="carousel">
+            <div className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators slide-index">
                     {indicators}
                 </ol>
                 <div className="carousel-inner">
                     {slides}
                 </div>
-                <a className="carousel-control-prev slide-button" href={"#" + this.props.carouselID} role="button" data-slide="prev" onClick={this.goToPrev}>
+                <div className="carousel-control-prev slide-button" onClick={this.goToPrev}>
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next slide-button" href={"#" + this.props.carouselID} role="button" data-slide="next" onClick={this.goToNext}>
+                </div>
+                <div className="carousel-control-next slide-button" onClick={this.goToNext}>
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
-                </a>
+                </div>
             </div>
         );
     }

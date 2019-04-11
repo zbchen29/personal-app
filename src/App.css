@@ -48,7 +48,7 @@
 }
 
 .special-font {
-    font-family:  "Cabin", Times, sans-serif
+    font-family:  "Cabin", sans-serif
 }
 
 .tab-header {
@@ -85,7 +85,7 @@
     right: 0;
     /* transform: translateX(35px); */
     opacity: 0;
-    transition: all 0.5s linear;
+    transition: all 0.5s ease-in;
 }
 
 .flow-enter {
@@ -96,7 +96,7 @@
 .flow-enter-active {
     /* transform: translateX(0); */
     opacity: 1;
-    transition: all 0.5s linear;
+    transition: all 0.5s ease-out;
 }
 
 .wrapper {
