@@ -99,10 +99,6 @@
     transition: all 0.5s ease-out;
 }
 
-.wrapper {
-    position: relative;
-}
-
 @media (max-width: 768px) {
     .app-icon-bar {
         width: auto;

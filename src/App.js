@@ -55,7 +55,7 @@ class App extends Component {
                         classNames="flow"
                         timeout={500}
                     >
-                        <Switch location={location} className="wrapper">
+                        <Switch location={location}>
                             <Route exact path="/" component={Home}/>
                             <Route path="/education" component={Education}/>
                             <Route path="/work" component={Work}/>
