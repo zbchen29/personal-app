@@ -8,10 +8,11 @@
 .text-link {
     color: black;
     font-weight: bold;
-    transition: 0.35s;
+    transition: color 0.2s linear;
 }
 
 .text-link:hover {
     color: #55ccff;
     text-decoration: none;
+    transition: color 0.05s linear;
 }
