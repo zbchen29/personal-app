@@ -19,8 +19,8 @@ class Education extends Component {
                         <a href="http://www.mit.edu/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Massachusetts Institute of Technology</a>
                         <div className="feature-text-i feature-text-light">Cambridge, MA</div>
                         <div className="feature-text-i feature-text-light">2017-2021</div>
-                        <div className="feature-text">I am a second-year undergraduate student at MIT majoring in Computer Science and Engineering (Course 6-3).</div>
-                        <div className="feature-text">GPA: 4.8/5.0</div>
+                        <div className="feature-text">I am a rising third-year undergraduate student at MIT majoring in Computer Science and Engineering (Course 6-3).</div>
+                        <div className="feature-text">GPA: 4.9/5.0</div>
                     </Feature>
                     <Feature format="image-right" image={rmhs} link="https://www.nrms.k12.nc.us/domain/32">
                         <a href="https://www.nrms.k12.nc.us/domain/32" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Rocky Mount High School</a>
