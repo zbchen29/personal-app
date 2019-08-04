@@ -6,6 +6,7 @@
 .panel-background {
     background-color: white;
     padding-bottom: 0px;
+    min-height: calc(100vh - 399px);
 }
 
 .panel-container {
