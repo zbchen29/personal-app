@@ -5,6 +5,7 @@
 
 .panel-background {
     background-color: white;
+    border-top: 12px solid #55ccff;
     padding-bottom: 0px;
     min-height: calc(100vh - 399px);
 }
@@ -14,7 +15,7 @@
     top: -75px;
     border-top: 12px solid #55ccff;
     border-bottom: 12px solid #55ccff;
-    box-shadow: 0px 3px 5px #7f7f7f;
+    box-shadow: 0px 3px 5px gray;
     max-width: 960px;
 }
 

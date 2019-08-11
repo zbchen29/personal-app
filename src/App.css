@@ -47,8 +47,12 @@
     height: 100%;
 }
 
-.special-font {
+.cabin-font {
     font-family:  "Cabin", sans-serif
+}
+
+.robotomono-font {
+    font-family: "Roboto Mono", Times, sans-serif
 }
 
 .tab-header {

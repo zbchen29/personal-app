@@ -27,7 +27,7 @@ class About extends Component {
                         Beyond my courses, I am deeply interested in astronomy/space exploration, education, history, and energy sustainability.
                     </div>
                     <div className="p-3 theme-text-sm">
-                        Although my family is from China, I grew up in the great state of North Carolina along with my twin brother.  I currently reside in the equally amazing (albeit much colder!) state of New York. In my free time, I love running, playing badminton, making digital art, coding, and reading historical fiction novels.
+                        Although my family is from China, I grew up in the great state of North Carolina along with my twin brother.  I currently reside in the equally amazing (albeit much colder!) state of New York. In my free time, I love running, playing badminton, making digital art, coding, solving chess puzzles, and reading historical fiction novels.
                     </div>
 
                     <div className="p-3 theme-text-md">Information and Contact</div>

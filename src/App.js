@@ -36,7 +36,7 @@ class App extends Component {
         // const { match, location , history} = this.props;
         const { location } = this.props;
         return (
-            <div className="special-font">
+            <div className="cabin-font">
                 <div className="w-100">
                     <img className="w-100 app-background" src={boston} alt="boston"/>
                     <div className="app-solid-background"></div>
