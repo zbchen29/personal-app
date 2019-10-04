@@ -17,14 +17,14 @@ class Work extends Component {
                 <PanelContainer>
                     <Feature format="image-left" image={openeye} link="https://www.eyesopen.com/">
                         <a href="https://www.eyesopen.com/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">OpenEye Scientific Software</a>
-                        <div className="feature-text-i feature-text-b">Software Developer Intern</div>
+                        <div className="feature-text-i feature-text-b">Software Engineering Intern</div>
                         <div className="feature-text-i feature-text-light">Boston, MA</div>
                         <div className="feature-text-i feature-text-light">June 2019 - August 2019</div>
                         <div className="feature-text">I worked on submodules of the cloud native platform <a href="https://www.eyesopen.com/orion" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">Orion</a> for computer-aided drug discovery and design.  Over the summer, I contributed to backend development and new visualization toolkits.</div>
                     </Feature>
                     <Feature format="image-right" image={gamelab} link="http://gamelab.mit.edu/">
                         <a href="http://gamelab.mit.edu/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">MIT Game Lab</a>
-                        <div className="feature-text-i feature-text-b">Software Developer Researcher</div>
+                        <div className="feature-text-i feature-text-b">Software Engineering Intern</div>
                         <div className="feature-text-i feature-text-light">Cambridge, MA</div>
                         <div className="feature-text-i feature-text-light">May 2018 - February 2019</div>
                         <div className="feature-text">Working with a team of undergrads and researchers, I developed new shaders, backend, models, and UI for Einstein's Playground, a planetarium-based real-time simulation of special relativity.  I also contributed to extending the <a href="http://gamelab.mit.edu/research/openrelativity/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">OpenRelativity</a> project.</div>

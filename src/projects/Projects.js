@@ -9,6 +9,7 @@ import cfg from "./projects_cfg.jpeg";
 import fractoid from "./projects_fractoid.jpeg";
 import ncaa from "./projects_ncaa.jpeg";
 import catan from "./projects_catan.jpeg";
+import chat from "./projects_chat.jpeg";
 
 class Projects extends Component {
     render()
@@ -25,15 +26,19 @@ class Projects extends Component {
                         <a href="https://catan-setup.herokuapp.com/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Catan Setup Generator</a>
                         <div className="feature-text">Wep app serving my generator for a more mathematically fair, randomized board setup for Settlers of Catan.  I have used this to invalidate complaints of unbalanced boards in my own games (with varying degrees of success).  My actual <a href="https://github.com/zbchen29/catan-gen" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">generator code</a> can be found on <a href="https://github.com/zbchen29" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">GitHub</a>.</div>
                     </Feature>
-                    <Feature format="image-left" image={cfg} link="http://codeforgood.mit.edu/">
+                    <Feature format="image-left" image={chat} link="https://github.com/zbchen29/chat-analysis">
+                        <a href="https://github.com/zbchen29/chat-analysis" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">GroupMe Chat Analysis</a>
+                        <div className="feature-text">Suite of functions for parsing and analyzing GroupMe group chat data though sentiment analysis, message aggregation, alias retrieval, etc.  The results turned out to be hilariously accurate for my group of friends!</div>
+                    </Feature>
+                    <Feature format="image-right" image={cfg} link="http://codeforgood.mit.edu/">
                         <a href="http://codeforgood.mit.edu/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">The Second Step Web App</a>
                         <div className="feature-text">As part of the MIT community service group Code for Good, I worked with a team of volunteers to develop a web app to guide site visitors to appropriate help/donor resources for <a href="https://thesecondstep.org/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">The Second Step</a>, a domestic violence prevention non-profit headquarted in Newton, MA.</div>
                     </Feature>
-                    <Feature format="image-right" image={fractoid} link="https://github.com/zbchen29/fractoid-game">
+                    <Feature format="image-left" image={fractoid} link="https://github.com/zbchen29/fractoid-game">
                         <a href="https://github.com/zbchen29/fractoid-game" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Fractoid</a>
                         <div className="feature-text">A top-down shooting game written in Unity Engine.  All game code, animations, sprites, and other assets were built from the ground up.</div>
                     </Feature>
-                    <Feature format="image-left" image={ncaa} link="https://github.com/zbchen29/ncaa-scores">
+                    <Feature format="image-right" image={ncaa} link="https://github.com/zbchen29/ncaa-scores">
                         <a href="https://github.com/zbchen29/ncaa-scores" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">March Madness Score Disparities</a>
                         <div className="feature-text">Various detailed data visualizations of minute-by-minute score differences of each game in the March Madness basketball tournament.  Data mined from <a href="https://www.ncaa.com/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">NCAA</a> and covers 2017-2018.  (Hopefully 2019 soon! RIP my bracket rank...<a href="https://www.ncaa.com/game/basketball-men/d1/2019/03/31/michigan-st-duke" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">why Duke</a>...)</div>
                     </Feature>
