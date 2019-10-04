@@ -28,7 +28,7 @@ class Projects extends Component {
                     </Feature>
                     <Feature format="image-left" image={chat} link="https://github.com/zbchen29/chat-analysis">
                         <a href="https://github.com/zbchen29/chat-analysis" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">GroupMe Chat Analysis</a>
-                        <div className="feature-text">Suite of functions for parsing and analyzing GroupMe group chat data though sentiment analysis, message aggregation, alias retrieval, etc.  The results turned out to be hilariously accurate for my group of friends!</div>
+                        <div className="feature-text">Suite of functions for parsing and analyzing GroupMe group chat data though sentiment analysis, message aggregation, alias retrieval, etc.  The results turned out to be hilariously accurate in my case.</div>
                     </Feature>
                     <Feature format="image-right" image={cfg} link="http://codeforgood.mit.edu/">
                         <a href="http://codeforgood.mit.edu/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">The Second Step Web App</a>
