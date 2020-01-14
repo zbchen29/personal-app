@@ -18,10 +18,10 @@ class Work extends Component {
                 <PanelContainer>
                     <Feature format="image-left" image={microsoft} link="https://www.microsoft.com/">
                         <a href="https://www.microsoft.com/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">Microsoft</a>
-                        <div className="feature-text-i feature-text-b">Incoming Software Engineering Intern</div>
+                        <div className="feature-text-i feature-text-b">Software Engineering Intern</div>
                         <div className="feature-text-i feature-text-light">Cambridge, MA</div>
                         <div className="feature-text-i feature-text-light">January 2020 - February 2020</div>
-                        <div className="feature-text">I will be working as an software engineering intern in the <a href="https://www.microsoft.com/garage/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">Microsoft Garage</a> at the New England Research and Development (<a href="http://www.microsoftnewengland.com/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">NERD</a>) Lab.</div>
+                        <div className="feature-text">I work as an software engineering intern in the <a href="https://www.microsoft.com/garage/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">Microsoft Garage</a> at the New England Research and Development (<a href="http://www.microsoftnewengland.com/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">NERD</a>) Lab.</div>
                     </Feature>
                     <Feature format="image-right" image={openeye} link="https://www.eyesopen.com/">
                         <a href="https://www.eyesopen.com/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">OpenEye Scientific Software</a>
@@ -32,7 +32,7 @@ class Work extends Component {
                     </Feature>
                     <Feature format="image-left" image={gamelab} link="http://gamelab.mit.edu/">
                         <a href="http://gamelab.mit.edu/" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">MIT Game Lab</a>
-                        <div className="feature-text-i feature-text-b">Software Engineering Intern</div>
+                        <div className="feature-text-i feature-text-b">Undergraduate Researcher</div>
                         <div className="feature-text-i feature-text-light">Cambridge, MA</div>
                         <div className="feature-text-i feature-text-light">May 2018 - February 2019</div>
                         <div className="feature-text">Working with a team of undergrads and researchers, I developed new shaders, backend, models, and UI for Einstein's Playground, a planetarium-based real-time simulation of special relativity.  I also contributed to extending the <a href="http://gamelab.mit.edu/research/openrelativity/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">OpenRelativity</a> project.</div>
