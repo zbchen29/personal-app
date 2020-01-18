@@ -101,7 +101,7 @@ class ArtCarousel extends Component {
         })
 
         return (
-            <div className="carousel slide" data-ride="carousel">
+            <div className="carousel slide slide-box" data-ride="carousel">
                 <ol className="carousel-indicators slide-index">
                     {indicators}
                 </ol>

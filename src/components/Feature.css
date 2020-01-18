@@ -33,6 +33,10 @@
     color: #7f7f7f;
 }
 
+.feature-box {
+    padding: 0px;
+}
+
 .image-right {
     order: 1;
 }
@@ -69,5 +73,9 @@
     .col-content {
         height: 250px;
         object-fit: cover;
+    }
+
+    .feature-box {
+        margin-bottom: 35px;
     }
 }

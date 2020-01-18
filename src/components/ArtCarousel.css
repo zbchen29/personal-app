@@ -29,6 +29,10 @@
     transition: 0.5s;
 }
 
+.slide-box {
+    margin: 0px -15px;
+}
+
 @media (max-width: 768px) {
     .slide-button {
         opacity: 0.25;
