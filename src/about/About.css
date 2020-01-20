@@ -1,18 +1,24 @@
 .info-icon {
     width: 35px;
     height: 35px;
-    margin: 10px 10px;
+    margin-bottom: 5px;
     object-fit: scale-down;
+}
+
+.group-link {
+    user-select: none;
+    font-weight: bold;
+    filter: invert(0%) sepia(0%) saturate(6%) hue-rotate(130deg) brightness(105%) contrast(102%);
+    transition: filter 0.5s linear;
+}
+
+.group-link:hover {
+    text-decoration: none;
+    filter: invert(72%) sepia(5%) saturate(6926%) hue-rotate(171deg) brightness(101%) contrast(107%);
+    transition: filter 0.05s linear;
 }
 
 .text-link {
     color: black;
-    font-weight: bold;
-    transition: color 0.2s linear;
-}
-
-.text-link:hover {
-    color: #55ccff;
-    text-decoration: none;
-    transition: color 0.05s linear;
+    filter: inherit;
 }

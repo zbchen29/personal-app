@@ -1,10 +1,17 @@
 .icon-img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     object-fit: scale-down;
+    filter: invert(0%) sepia(0%) saturate(6%) hue-rotate(130deg) brightness(105%) contrast(102%);
+    transition: filter 0.5s linear;
+}
+
+.icon-img:hover {
+    filter: invert(72%) sepia(5%) saturate(6926%) hue-rotate(171deg) brightness(101%) contrast(107%);
+    transition: filter 0.05s linear;
 }
 
 .icon-link {
     position: relative;
-    top: -50px;
+    top: -40px;
 }

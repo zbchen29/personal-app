@@ -53,7 +53,7 @@ class App extends Component {
                     <CSSTransition
                         key={location.pathname}
                         classNames="flow"
-                        timeout={500}
+                        timeout={600}
                     >
                         <Switch location={location}>
                             <Route exact path="/" component={Home}/>

@@ -1,6 +1,6 @@
 .plot-area {
     position : relative;
-    box-shadow: 0px 0px 5px 0px gray;
+    box-shadow: 0px 0px 25px 0px lightgray;
     /* Needs to have lengths of areas length + point radius + 1 */
     width : 256px;
     height : 256px;
