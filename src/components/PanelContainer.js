@@ -24,7 +24,7 @@ class PanelContainer extends Component {
                     <IconLink linkPath="https://www.behance.net/rigelb8ia7cd80" imageIcon={behance_icon} newTab={true}/>
                     <IconLink linkPath="mailto:zhenbang@mit.edu" imageIcon={email_icon} newTab={false}/>
                 </div>
-                <div className="theme-text-light copyright-text">© Zhenbang Chen</div>
+                <div className="theme-text-light copyright-text">© 2020 Zhenbang Chen</div>
             </div>
         );
     }

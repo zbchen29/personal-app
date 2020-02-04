@@ -119,7 +119,7 @@ class Plots extends Component {
                     </div>
                     <div className="m-3">
                         <div className="plot-area text-center mx-auto">
-                            <img className="w-100" src={curve} alt="curve"/>
+                            <img className="w-100 not-selectable" draggable="false" src={curve} alt="curve"/>
                             { this.drawPoints(this.state.pointsCurve) }
                         </div>
                         <div className="text-center robotomono-font pt-3">
