@@ -27,7 +27,7 @@ class About extends Component {
 
                     <div className="p-3 theme-text-md">Information and Contact</div>
                     <div className="d-flex flex-row flex-wrap justify-content-around p-3">
-                        <a target="_blank" rel="noopener noreferrer" href="/Resumepdf" className="theme-text-sm group-link p-2"><div className="info-link d-flex flex-column align-items-center">
+                        <a target="_blank" rel="noopener noreferrer" href="/Resume.pdf" className="theme-text-sm group-link p-2"><div className="info-link d-flex flex-column align-items-center">
                             <img className="info-icon" src={resume_icon} alt="resume icon"/>
                             <div className="text-link">Resume</div>
                         </div></a>
