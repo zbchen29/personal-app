@@ -50,7 +50,7 @@ class Projects extends Component {
                     </Feature>
                     <Feature format="image-right" image={ncaa} link="https://github.com/zbchen29/ncaa-scores">
                         <a href="https://github.com/zbchen29/ncaa-scores" className="feature-text-h feature-text-link" target="_blank" rel="noopener noreferrer">March Madness Score Disparities</a>
-                        <div className="feature-text">Various detailed data visualizations of minute-by-minute score differences of each game in the March Madness basketball tournament.  Data mined from <a href="https://www.ncaa.com/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">NCAA</a> and covers 2017-2018.  (Hopefully 2019 soon! RIP my bracket rank...<a href="https://www.ncaa.com/game/basketball-men/d1/2019/03/31/michigan-st-duke" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">why Duke</a>...)</div>
+                        <div className="feature-text">Various detailed data visualizations of minute-by-minute score differences of each game in the March Madness basketball tournament.  Data mined from <a href="https://www.ncaa.com/" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">NCAA</a> and covers 2017-2018.  (RIP my bracket rank...<a href="https://www.ncaa.com/game/basketball-men/d1/2019/03/31/michigan-st-duke" className="feature-text-b feature-text-link" target="_blank" rel="noopener noreferrer">why Duke</a>...)</div>
                     </Feature>
                 </PanelContainer>
             </div>
